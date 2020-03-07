@@ -1,1 +1,14 @@
 Atualizando o servidor local o git!
+
+#Alterei o arquivo
+
+git Status
+git add .   
+git Status           //o new file precisa ficar verde
+git commit -m "nome da alteração/arquivo/projeto"             //aqui eu criei o pacote para ser enviado
+git push            //envia o pacote para o git
+git status          //verifica se existem alterçôes
+
+#Após essas alteração acima, que foram feitas online no git, irei fazer um pull para baixar as alterações para o servidor
+
+git pull
