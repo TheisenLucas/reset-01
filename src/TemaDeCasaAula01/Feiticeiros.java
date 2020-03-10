@@ -12,6 +12,14 @@ public class Feiticeiros {
 
     int mana;
 
+    Feiticeiros(String nome, int vida, int ataque, int defesa, int mana) {
+        this.nome = nome;
+        this.vida = vida;
+        this.ataque = ataque;
+        this.defesa = defesa;
+        this.mana = mana;
+    }
+
     boolean verificarVida() {
         return vida > 0;
     }

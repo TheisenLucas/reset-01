@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5bff636-e4ad-488c-9b31-44b871925ba3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TemaDeCasaAula01/Armas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TemaDeCasaAula01/Atacar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TemaDeCasaAula01/Barbaros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TemaDeCasaAula01/Clerigos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TemaDeCasaAula01/Combate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TemaDeCasaAula01/Druidas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TemaDeCasaAula01/Feiticeiros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TemaDeCasaAula01/Guerreiros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TemaDeCasaAula01/Magias.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TemaDeCasaAula01/Magos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TemaDeCasaAula01/Poderes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TemaDeCasaAula01/Atacar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TemaDeCasaAula01/Atacar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TemaDeCasaAula01/Barbaros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TemaDeCasaAula01/Barbaros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TemaDeCasaAula01/Clerigos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TemaDeCasaAula01/Clerigos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TemaDeCasaAula01/Combate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TemaDeCasaAula01/Combate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TemaDeCasaAula01/Druidas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TemaDeCasaAula01/Druidas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TemaDeCasaAula01/Feiticeiros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TemaDeCasaAula01/Feiticeiros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TemaDeCasaAula01/Guerreiros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TemaDeCasaAula01/Guerreiros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TemaDeCasaAula01/Magos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TemaDeCasaAula01/Magos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
