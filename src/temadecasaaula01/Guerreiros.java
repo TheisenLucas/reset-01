@@ -1,6 +1,6 @@
-package TemaDeCasaAula01;
+package temadecasaaula01;
 
-public class Clerigos {
+public class Guerreiros {
 
     String nome;
 
@@ -10,21 +10,14 @@ public class Clerigos {
 
     int defesa;
 
-    int fe;
-
-    Clerigos(String nome, int vida, int ataque, int defesa, int fe) {
+    Guerreiros(String nome, int vida, int ataque, int defesa) {
         this.nome = nome;
         this.vida = vida;
         this.ataque = ataque;
         this.defesa = defesa;
-        this.fe = fe;
     }
 
     boolean verificarVida() {
         return vida > 0;
-    }
-
-    boolean verificarFe() {
-        return fe > 0;
     }
 }

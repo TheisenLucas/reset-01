@@ -1,6 +1,6 @@
-package TemaDeCasaAula01;
+package temadecasaaula01;
 
-public class Druidas {
+public class Clerigos {
 
     String nome;
 
@@ -12,7 +12,7 @@ public class Druidas {
 
     int fe;
 
-    Druidas(String nome, int vida, int ataque, int defesa, int fe) {
+    Clerigos(String nome, int vida, int ataque, int defesa, int fe) {
         this.nome = nome;
         this.vida = vida;
         this.ataque = ataque;

@@ -1,4 +1,4 @@
-package TemaDeCasaAula01;
+package temadecasaaula01;
 
 public class Magos {
 

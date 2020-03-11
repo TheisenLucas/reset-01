@@ -1,4 +1,4 @@
-package ExercicioTres;
+package exercicio03;
 
 public class AplicacaoGerenciarNotas {
 
