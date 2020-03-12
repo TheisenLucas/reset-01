@@ -12,6 +12,8 @@ public class Druidas {
 
     int fe;
 
+    int atacar (int poderArmaMagiaDivino, int ataqueAtacante, int defesaAlvo) { return (poderArmaMagiaDivino * ataqueAtacante) - defesaAlvo; }
+
     Druidas(String nome, int vida, int ataque, int defesa, int fe) {
         this.nome = nome;
         this.vida = vida;

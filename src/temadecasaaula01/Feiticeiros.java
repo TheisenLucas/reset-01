@@ -12,6 +12,8 @@ public class Feiticeiros {
 
     int mana;
 
+    int atacar (int poderArmaMagiaDivino, int ataqueAtacante, int defesaAlvo) { return (poderArmaMagiaDivino * ataqueAtacante) - defesaAlvo; }
+
     Feiticeiros(String nome, int vida, int ataque, int defesa, int mana) {
         this.nome = nome;
         this.vida = vida;
