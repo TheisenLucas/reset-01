@@ -19,8 +19,6 @@ public class Guerreiros {
         this.defesa = defesa;
     }
 
-
-
     boolean verificarVida() {
         return vida > 0;
     }
