@@ -9,7 +9,7 @@ public class ListaDeCompras {
 
         List<Produto> produto = new ArrayList<>();
         produto.add(new Produto("Arroz", Segmento.ALIMENTAÇÃO, 3.25, 3));
-        
+
 
     }
 }
