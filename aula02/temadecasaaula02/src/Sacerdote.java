@@ -2,7 +2,7 @@ public class Sacerdote extends Personagem{
 
     int fe;
 
-    public Sacerdote(final String nome, final double vida, final double ataque, final double defesa, final int fe) {
+    private Sacerdote(final String nome, final double vida, final double ataque, final double defesa, final int fe) {
         super(nome, vida, ataque, defesa);
         this.fe = fe;
     }
@@ -10,6 +10,7 @@ public class Sacerdote extends Personagem{
     void atacar(Personagem alvo, PoderDivino poderDivino) {
         double dano = calcularDano(alvo.defesa, poderDivino.intesidadePoderDivino);
         alvo.vida -= dano;
+        fe -= poderDivino.custoFe;
         registrar(alvo.nome, poderDivino.nomePoderDivino, dano);
     }
 
