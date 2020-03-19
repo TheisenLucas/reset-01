@@ -1,6 +1,6 @@
 public class Guerreiro extends HomemDeArmas{
 
-    public Guerreiro(String nome, double vida, double ataque, double defesa) {
+    public Guerreiro(final String nome, final double vida, final double ataque, final double defesa) {
         super(nome, vida, ataque, defesa);
     }
 }

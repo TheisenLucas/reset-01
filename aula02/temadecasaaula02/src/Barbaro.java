@@ -1,6 +1,6 @@
 public class Barbaro extends HomemDeArmas{
 
-    public Barbaro(String nome, double vida, double ataque, double defesa) {
+    public Barbaro(final String nome,final double vida,final double ataque,final double defesa) {
         super(nome, vida, ataque, defesa);
     }
 

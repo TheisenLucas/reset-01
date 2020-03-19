@@ -4,7 +4,7 @@ public class AppCombate {
 
         // Declaração dos Personagens
 
-        Guerreiro eadlet = new Guerreiro("Eadlet", 1000, 90, 90);
+        Guerreiro eadlet = new Guerreiro("Eadlet", 1000, 90, 1000);
         Barbaro ogar = new Barbaro("Ogar", 1000, 110, 110);
         Mago radagast = new Mago("Radagast", 1000, 150, 180,45);
         Feiticeiro lockbor = new Feiticeiro("Lockbor",1000,140,180,40);
@@ -57,7 +57,7 @@ public class AppCombate {
 
         //Status dos personagens após primeira rodada
 
-        System.out.println("Status dos personagens após a segunda rodada de ataques \n");
+        System.out.println("\nStatus dos personagens após a segunda rodada de ataques \n");
 
         eadlet.imprimirEstado();
         ogar.imprimirEstado();

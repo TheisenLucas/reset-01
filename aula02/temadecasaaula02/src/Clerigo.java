@@ -1,6 +1,7 @@
 public class Clerigo extends Sacerdote{
 
-    public Clerigo(String nome, double vida, double ataque, double defesa, int fe) {
+    public Clerigo(final String nome, final double vida, final double ataque, final double defesa, final int fe) {
         super(nome, vida, ataque, defesa, fe);
     }
 }
+

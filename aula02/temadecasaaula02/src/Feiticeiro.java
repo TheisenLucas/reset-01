@@ -1,6 +1,6 @@
 public class Feiticeiro extends Arcano {
 
-    public Feiticeiro(String nome, double vida, double ataque, double defesa, int mana) {
+    public Feiticeiro(final String nome, final double vida, final double ataque, final double defesa, final int mana) {
         super(nome, vida, ataque, defesa, mana);
     }
 }

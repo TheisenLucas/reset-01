@@ -1,6 +1,6 @@
 public class Mago extends Arcano{
 
-    public Mago(String nome, double vida, double ataque, double defesa, int mana) {
+    public Mago(final String nome, final double vida, final double ataque, final double defesa, final int mana) {
         super(nome, vida, ataque, defesa, mana);
     }
 }

@@ -1,6 +1,6 @@
 public class Druida extends  Sacerdote {
 
-    public Druida(String nome, double vida, double ataque, double defesa, int fe) {
+    public Druida(final String nome, final double vida, final double ataque, final double defesa, final int fe) {
         super(nome, vida, ataque, defesa, fe);
     }
 }
