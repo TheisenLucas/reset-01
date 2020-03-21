@@ -14,16 +14,23 @@ public class Arcano extends Personagem {
         if (this.vida <= 0) {
             registrarAusenciaDeAtaque(alvo.nome);
         } else {
-            if (alvo.defesa > (dano + alvo.defesa)) {    // dano + alvo.defesa = poderFinalDeAtaque
-                registrarDefesa(alvo.nome, magia.nomeMagia);
+            if (this.mana <= 0) {
+                System.out.println("Mana = " + this.mana + ", " + this.nome + " não pode atacar!");
             } else {
-                alvo.vida -= dano;
-                this.mana -= magia.custoMana;
-                if ((alvo.vida <= 0)) {
-                    alvo.vida = 0;  // usei isto para não mostrar vida negativa no console
-                    registrarMorte(alvo.nome, magia.nomeMagia);
+                if (alvo.defesa > (dano + alvo.defesa)) {    // dano + alvo.defesa = poderFinalDeAtaque
+                    registrarDefesa(alvo.nome, magia.nomeMagia);
                 } else {
-                    registrarAtaque(alvo.nome, magia.nomeMagia, dano);
+                    alvo.vida -= dano;
+                    this.mana -= magia.custoMana;
+                    if (this.mana < 0) {
+                        this.mana = 0;
+                    }
+                    if ((alvo.vida <= 0)) {
+                        alvo.vida = 0;  // usei isto para não mostrar vida negativa no console
+                        registrarMorte(alvo.nome, magia.nomeMagia);
+                    } else {
+                        registrarAtaque(alvo.nome, magia.nomeMagia, dano);
+                    }
                 }
             }
         }

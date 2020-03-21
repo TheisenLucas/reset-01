@@ -4,12 +4,12 @@ public class AppCombate {
 
         // Declaração dos Personagens
 
-        Guerreiro eadlet = new Guerreiro("Eadlet", 1000, 90, 1000);
+        Guerreiro eadlet = new Guerreiro("Eadlet", 1000, 90, 1000); //Defesa em 1000 para teste da condição de defesa
         Barbaro ogar = new Barbaro("Ogar", 1000, 110, 110);
-        Mago radagast = new Mago("Radagast", 1000, 150, 180,45);
-        Feiticeiro lockbor = new Feiticeiro("Lockbor",1000,140,180,40);
-        Druida cloris = new Druida("Cloris",1000,120,170,40);
-        Clerigo antero = new Clerigo("Antero",1000,110,200,60);
+        Mago radagast = new Mago("Radagast", 1000, 150, 180,22);
+        Feiticeiro lockbor = new Feiticeiro("Lockbor",1000,140,180,10);
+        Druida cloris = new Druida("Cloris",1000,120,170,20); //Fé em 10 para testar condição de falta de fé
+        Clerigo antero = new Clerigo("Antero",1000,110,200,25);
 
         //Declaração das Armas, Magias e Poderes
 

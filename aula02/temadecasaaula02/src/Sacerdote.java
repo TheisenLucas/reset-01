@@ -14,16 +14,23 @@ public class Sacerdote extends Personagem {
         if (this.vida <= 0) {
             registrarAusenciaDeAtaque(alvo.nome);
         } else {
-            if (alvo.defesa > (dano + alvo.defesa)) {    // dano + alvo.defesa = poderFinalDeAtaque
-                registrarDefesa(alvo.nome, poderDivino.nomePoderDivino);
+            if (this.fe <= 0) {
+                System.out.println("Fé = " + this.fe + ", " + this.nome + " não pode atacar!");
             } else {
-                alvo.vida -= dano;
-                this.fe -= poderDivino.custoFe;
-                if ((alvo.vida <= 0)) {
-                    alvo.vida = 0;  // usei isto para não mostrar vida negativa no console
-                    registrarMorte(alvo.nome, poderDivino.nomePoderDivino);
+                if (alvo.defesa > (dano + alvo.defesa)) {    // dano + alvo.defesa = poderFinalDeAtaque
+                    registrarDefesa(alvo.nome, poderDivino.nomePoderDivino);
                 } else {
-                    registrarAtaque(alvo.nome, poderDivino.nomePoderDivino, dano);
+                    alvo.vida -= dano;
+                    this.fe -= poderDivino.custoFe;
+                    if (this.fe < 0) {
+                        this.fe = 0;
+                    }
+                    if ((alvo.vida <= 0)) {
+                        alvo.vida = 0;  // usei isto para não mostrar vida negativa no console
+                        registrarMorte(alvo.nome, poderDivino.nomePoderDivino);
+                    } else {
+                        registrarAtaque(alvo.nome, poderDivino.nomePoderDivino, dano);
+                    }
                 }
             }
         }
