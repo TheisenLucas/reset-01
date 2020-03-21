@@ -1,4 +1,6 @@
-/*import java.util.Scanner;
+/*import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
 
 public class CriarPersonagem extends Personagem {
 
@@ -6,41 +8,41 @@ public class CriarPersonagem extends Personagem {
         super(nome, vida, ataque, defesa);
     }
 
-    Personagem personagem = null;
+    List<Personagem> personagens = new ArrayList<>();
 
     Scanner console = new Scanner(System.in);
 
     int opcao = 0;
 
-    while (opcao != 7) {
+    while(opcao !=7) {
 
-	    Menu.imprimeMenu();
+        Menu.imprimeMenu();
 
         opcao = console.nextInt();
 
         switch (opcao) {
             case 1:
-                personagem = new Guerreiro();
+                Guerreiro = new Guerreiro();
                 break;
 
             case 2:
-                personagem = new Barbaro();
+                Barbaro = new Barbaro();
                 break;
 
             case 3:
-                personagem = new Guerreiro();
+                Mago = new Guerreiro();
                 break;
 
             case 4:
-                personagem = new Guerreiro();
+                Feiticeiro = new Guerreiro();
                 break;
 
             case 5:
-                personagem = new Guerreiro();
+                Druida = new Guerreiro();
                 break;
 
             case 6:
-                personagem = new Guerreiro();
+                Clerigo = new Guerreiro();
                 break;
 
             case 7:
