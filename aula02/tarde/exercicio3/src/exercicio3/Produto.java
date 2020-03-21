@@ -1,5 +1,7 @@
 package exercicio3;
 
+import java.util.ArrayList;
+
 public class Produto {
 
     String nome;
@@ -21,7 +23,14 @@ public class Produto {
         this.quantidade = quantidade;
     }
 
-    void imprimeLista (){
-        System.out.println("[" + segmento.getDescricao() + "]" + " - " + nome + "(" + quantidade + ")" + " | " + valorTotal());
+
+
+    void imprimeLista() {
+
+        int i;
+
+        for (i = 0, i < produtos.size(); i++) {
+            System.out.println("[" + segmento.getDescricao() + "]" + " - " + nome + "(" + quantidade + ")" + " | " + valorTotal());
+        }
     }
 }
