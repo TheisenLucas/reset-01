@@ -7,14 +7,21 @@ public class ListaDeCompras {
 
     public static void main(String[] args) {
 
-        List<Produto> produtos = new ArrayList<>();
-        produtos.add(new Produto("Arroz", Segmento.ALIMENTAÇÃO, 3.25, 3));
-        produtos.add(new Produto("Feijão", Segmento.ALIMENTAÇÃO, 2.75, 2));
-        produtos.add(new Produto("Chocolate", Segmento.ALIMENTAÇÃO, 4.99, 4));
-        produtos.add(new Produto("Sabão em pó", Segmento.LIMPEZA, 11.99, 1));
-        produtos.add(new Produto("Sabonete", Segmento.HIGIENE, 1.65, 8));
-    }
+        Produto produto1 = new Produto("Arroz", Segmento.ALIMENTAÇÃO, 3.25, 3);
+        Produto produto2 = new Produto("Feijão", Segmento.ALIMENTAÇÃO, 2.75, 2);
+        Produto produto3 = new Produto("Chocolate", Segmento.ALIMENTAÇÃO, 4.99, 4);
+        Produto produto4 = new Produto("Sabão em pó", Segmento.LIMPEZA, 11.99, 1);
+        Produto produto5 = new Produto("Sabonete", Segmento.HIGIENE, 1.65, 8);
 
-    Produto.
+        List<Produto> listaProdutos = new ArrayList<>();
+        listaProdutos.add(produto1);
+        listaProdutos.add(produto2);
+        listaProdutos.add(produto3);
+        listaProdutos.add(produto4);
+        listaProdutos.add(produto5);
+
+        produto1.toString();
+
+    }
 
 }

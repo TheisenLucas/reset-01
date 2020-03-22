@@ -23,14 +23,22 @@ public class Produto {
         this.quantidade = quantidade;
     }
 
+    @Override
+    public String toString() {
+        return "Produto{" +
+                "nome='" + nome + '\'' +
+                ", segmento=" + segmento +
+                ", valor=" + valor +
+                ", quantidade=" + quantidade +
+                '}';
+    }
 
-
-    void imprimeLista() {
+    /*void imprimeLista() {
 
         int i;
 
         for (i = 0, i < produtos.size(); i++) {
             System.out.println("[" + segmento.getDescricao() + "]" + " - " + nome + "(" + quantidade + ")" + " | " + valorTotal());
         }
-    }
+    } */
 }
