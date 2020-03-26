@@ -7,6 +7,7 @@ public class App {
     public static void main(String[] args) {
 
         MusicaMenu musicaMenu = new MusicaMenu();
+        FilmeMenu filmeMenu = new FilmeMenu();
 
         Scanner teclado = new Scanner(System.in);
         char opcao = ' ';
@@ -15,6 +16,7 @@ public class App {
 
             System.out.println("\nSelecione uma opção abaixo: ");
             System.out.println("[M] - Músicas");
+            System.out.println("[F] - Filmes");
             System.out.println("[X] - Encerrar");
             System.out.print("> ");
             opcao = teclado.next().charAt(0);
@@ -22,6 +24,9 @@ public class App {
             switch (opcao) {
                 case 'M':
                     musicaMenu.opcoes();
+                    break;
+                case 'F':
+                    filmeMenu.opcoes();
                     break;
                 case 'X':
                     System.out.println("Encerrando...");

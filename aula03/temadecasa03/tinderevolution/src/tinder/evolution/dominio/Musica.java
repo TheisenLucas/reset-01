@@ -63,12 +63,12 @@ public class Musica {
 
     @Override
     public String toString() {
-        return "Musica{" +
-                "id=" + id +
-                ", nome='" + nome + '\'' +
-                ", artista='" + artista + '\'' +
-                ", estiloMusical=" + estiloMusical +
-                ", lancamento=" + lancamento +
+        return "Musica> " +
+                "Id: " + id +
+                ", Nome: '" + nome + '\'' +
+                ", Artista: '" + artista + '\'' +
+                ", Estilo Musical: " + estiloMusical +
+                ", Data de lançamento: " + lancamento +
                 '}';
     }
 }
