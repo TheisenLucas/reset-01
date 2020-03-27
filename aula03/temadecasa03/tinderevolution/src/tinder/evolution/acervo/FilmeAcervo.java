@@ -1,7 +1,6 @@
 package tinder.evolution.acervo;
 
 import tinder.evolution.dominio.Filme;
-import tinder.evolution.dominio.Musica;
 
 import java.util.ArrayList;
 import java.util.List;

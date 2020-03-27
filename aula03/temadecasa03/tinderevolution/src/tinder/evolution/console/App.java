@@ -8,6 +8,7 @@ public class App {
 
         MusicaMenu musicaMenu = new MusicaMenu();
         FilmeMenu filmeMenu = new FilmeMenu();
+        SerieMenu serieMenu = new SerieMenu();
 
         Scanner teclado = new Scanner(System.in);
         char opcao = ' ';
@@ -17,6 +18,7 @@ public class App {
             System.out.println("\nSelecione uma opção abaixo: ");
             System.out.println("[M] - Músicas");
             System.out.println("[F] - Filmes");
+            System.out.println("[S] - Séries");
             System.out.println("[X] - Encerrar");
             System.out.print("> ");
             opcao = teclado.next().charAt(0);
@@ -27,6 +29,9 @@ public class App {
                     break;
                 case 'F':
                     filmeMenu.opcoes();
+                    break;
+                case 'S':
+                    serieMenu.opcoes();
                     break;
                 case 'X':
                     System.out.println("Encerrando...");
