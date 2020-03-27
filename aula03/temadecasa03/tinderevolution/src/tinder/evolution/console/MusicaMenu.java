@@ -1,7 +1,7 @@
 package tinder.evolution.console;
 
-import tinder.evolution.dominio.EstiloMusical;
-import tinder.evolution.dominio.Musica;
+import tinder.evolution.dominio.musica.EstiloMusical;
+import tinder.evolution.dominio.musica.Musica;
 import tinder.evolution.gerenciador.MusicaGerenciador;
 
 import java.time.LocalDate;

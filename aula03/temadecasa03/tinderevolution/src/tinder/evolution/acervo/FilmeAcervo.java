@@ -1,6 +1,6 @@
 package tinder.evolution.acervo;
 
-import tinder.evolution.dominio.Filme;
+import tinder.evolution.dominio.filme.Filme;
 
 import java.util.ArrayList;
 import java.util.List;

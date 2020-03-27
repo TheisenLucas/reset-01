@@ -1,7 +1,7 @@
 package tinder.evolution.gerenciador;
 
 import tinder.evolution.acervo.MusicaAcervo;
-import tinder.evolution.dominio.Musica;
+import tinder.evolution.dominio.musica.Musica;
 
 import java.time.LocalDate;
 import java.util.List;

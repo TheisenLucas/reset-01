@@ -1,4 +1,6 @@
-package tinder.evolution.dominio;
+package tinder.evolution.dominio.filme;
+
+import tinder.evolution.dominio.filme.CategoriaFilme;
 
 import java.time.LocalDate;
 
@@ -89,6 +91,6 @@ public class Filme {
                 ", Data de lançamento: " + lancamento +
                 ", Categoria: " + categoriaFilme +
                 ", Sinopse: '" + sinopse + '\'' +
-                '}';
+                '>';
     }
 }

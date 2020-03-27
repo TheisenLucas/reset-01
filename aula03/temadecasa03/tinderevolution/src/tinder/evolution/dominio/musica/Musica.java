@@ -1,4 +1,6 @@
-package tinder.evolution.dominio;
+package tinder.evolution.dominio.musica;
+
+import tinder.evolution.dominio.musica.EstiloMusical;
 
 import java.time.LocalDate;
 
@@ -69,6 +71,6 @@ public class Musica {
                 ", Artista: '" + artista + '\'' +
                 ", Estilo Musical: " + estiloMusical +
                 ", Data de lançamento: " + lancamento +
-                '}';
+                '>';
     }
 }

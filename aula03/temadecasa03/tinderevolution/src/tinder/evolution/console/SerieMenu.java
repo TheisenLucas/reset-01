@@ -1,7 +1,7 @@
 package tinder.evolution.console;
 
-import tinder.evolution.dominio.CategoriaSerie;
-import tinder.evolution.dominio.Serie;
+import tinder.evolution.dominio.serie.CategoriaSerie;
+import tinder.evolution.dominio.serie.Serie;
 import tinder.evolution.gerenciador.SerieGerenciador;
 
 import java.time.LocalDate;

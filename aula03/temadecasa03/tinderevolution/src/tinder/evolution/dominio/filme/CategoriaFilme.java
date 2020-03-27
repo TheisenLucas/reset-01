@@ -1,4 +1,4 @@
-package tinder.evolution.dominio;
+package tinder.evolution.dominio.filme;
 
 public enum CategoriaFilme {
 

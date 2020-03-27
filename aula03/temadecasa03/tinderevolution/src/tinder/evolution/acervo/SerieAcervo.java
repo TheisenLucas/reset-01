@@ -1,6 +1,6 @@
 package tinder.evolution.acervo;
 
-import tinder.evolution.dominio.Serie;
+import tinder.evolution.dominio.serie.Serie;
 
 import java.util.ArrayList;
 import java.util.List;

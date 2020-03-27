@@ -1,4 +1,6 @@
-package tinder.evolution.dominio;
+package tinder.evolution.dominio.serie;
+
+import tinder.evolution.dominio.serie.CategoriaSerie;
 
 import java.time.LocalDate;
 
@@ -115,6 +117,6 @@ public class Serie {
                 ", Data de lançamento: " + lancamento +
                 ", Categoria: " + categoriaSerie +
                 ", Sinopse: '" + sinopse + '\'' +
-                '}';
+                '>';
     }
 }

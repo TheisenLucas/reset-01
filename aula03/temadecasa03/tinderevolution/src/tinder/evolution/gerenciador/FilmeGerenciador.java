@@ -1,7 +1,7 @@
 package tinder.evolution.gerenciador;
 
 import tinder.evolution.acervo.FilmeAcervo;
-import tinder.evolution.dominio.Filme;
+import tinder.evolution.dominio.filme.Filme;
 
 import java.time.LocalDate;
 import java.util.List;

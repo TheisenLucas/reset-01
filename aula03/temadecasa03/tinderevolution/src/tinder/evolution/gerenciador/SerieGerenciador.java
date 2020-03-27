@@ -1,7 +1,7 @@
 package tinder.evolution.gerenciador;
 
 import tinder.evolution.acervo.SerieAcervo;
-import tinder.evolution.dominio.Serie;
+import tinder.evolution.dominio.serie.Serie;
 
 import java.time.LocalDate;
 import java.util.List;
