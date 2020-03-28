@@ -2,7 +2,7 @@ package tinder.evolution.dominio.usuario;
 
 import java.time.LocalDate;
 
-public class DadosUsuario {
+public class Usuario {
     //  Dados de Usuário:
 //  Id
 //  Nome
@@ -25,9 +25,9 @@ public class DadosUsuario {
 
     private String biografia;
 
-    private double localizacao;
+    private Localizacao localizacao;
 
-    public DadosUsuario(String nome, String email, String telefone, LocalDate dataNascimento, String biografia, double localizacao) {
+    public Usuario(String nome, String email, String telefone, LocalDate dataNascimento, String biografia, Localizacao localizacao) {
         this.nome = nome;
         this.email = email;
         this.telefone = telefone;
@@ -84,11 +84,11 @@ public class DadosUsuario {
         this.biografia = biografia;
     }
 
-    public double getLocalizacao() {
+    public Localizacao getLocalizacao() {
         return localizacao;
     }
 
-    public void setLocalizacao(double localizacao) {
+    public void setLocalizacao(Localizacao localizacao) {
         this.localizacao = localizacao;
     }
 

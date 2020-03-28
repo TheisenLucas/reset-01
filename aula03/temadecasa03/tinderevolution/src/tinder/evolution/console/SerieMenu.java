@@ -118,7 +118,7 @@ public class SerieMenu {
                 break;
         }
 
-        scanner.nextLine(); // Consumir nova linha estante
+        scanner.nextLine(); // Consumir nova linha restante
         System.out.print("Sinopse: ");
         String sinopse = scanner.nextLine();
 
@@ -139,7 +139,8 @@ public class SerieMenu {
         }
 
         System.out.print("> ");
-        int id = scanner.nextInt(); scanner.nextLine();
+        int id = scanner.nextInt();
+        scanner.nextLine();
 
         System.out.print("Nome: ");
         String nome = scanner.nextLine();
