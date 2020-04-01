@@ -1,7 +1,7 @@
 package br.com.cwi.tinderevolution.gerenciador;
 
-import tinder.evolution.acervo.FilmeAcervo;
-import tinder.evolution.dominio.filme.Filme;
+import br.com.cwi.tinderevolution.acervo.FilmeAcervo;
+import br.com.cwi.tinderevolution.dominio.filme.Filme;
 
 import java.time.LocalDate;
 import java.util.List;

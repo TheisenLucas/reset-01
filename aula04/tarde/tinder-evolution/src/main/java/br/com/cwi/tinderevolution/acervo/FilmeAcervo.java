@@ -1,6 +1,6 @@
 package br.com.cwi.tinderevolution.acervo;
 
-import tinder.evolution.dominio.filme.Filme;
+import br.com.cwi.tinderevolution.dominio.filme.Filme;
 
 import java.util.ArrayList;
 import java.util.List;
