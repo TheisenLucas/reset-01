@@ -1,8 +1,8 @@
 package br.com.cwi.tinderevolution.console;
 
-import tinder.evolution.dominio.usuario.Localizacao;
-import tinder.evolution.dominio.usuario.Usuario;
-import tinder.evolution.gerenciador.UsuarioGerenciador;
+import br.com.cwi.tinderevolution.dominio.usuario.Usuario;
+import br.com.cwi.tinderevolution.gerenciador.UsuarioGerenciador;
+import br.com.cwi.tinderevolution.dominio.usuario.Localizacao;
 
 import java.time.LocalDate;
 import java.util.List;

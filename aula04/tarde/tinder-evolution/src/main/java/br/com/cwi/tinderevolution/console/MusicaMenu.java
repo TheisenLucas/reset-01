@@ -1,8 +1,8 @@
 package br.com.cwi.tinderevolution.console;
 
-import tinder.evolution.dominio.musica.EstiloMusical;
-import tinder.evolution.dominio.musica.Musica;
-import tinder.evolution.gerenciador.MusicaGerenciador;
+import br.com.cwi.tinderevolution.dominio.musica.EstiloMusical;
+import br.com.cwi.tinderevolution.dominio.musica.Musica;
+import br.com.cwi.tinderevolution.gerenciador.MusicaGerenciador;
 
 import java.time.LocalDate;
 import java.util.List;

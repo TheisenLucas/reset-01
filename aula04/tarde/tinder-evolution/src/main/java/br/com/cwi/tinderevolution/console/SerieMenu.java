@@ -1,8 +1,8 @@
 package br.com.cwi.tinderevolution.console;
 
-import tinder.evolution.dominio.serie.CategoriaSerie;
-import tinder.evolution.dominio.serie.Serie;
-import tinder.evolution.gerenciador.SerieGerenciador;
+import br.com.cwi.tinderevolution.gerenciador.SerieGerenciador;
+import br.com.cwi.tinderevolution.dominio.serie.CategoriaSerie;
+import br.com.cwi.tinderevolution.dominio.serie.Serie;
 
 import java.time.LocalDate;
 import java.util.List;

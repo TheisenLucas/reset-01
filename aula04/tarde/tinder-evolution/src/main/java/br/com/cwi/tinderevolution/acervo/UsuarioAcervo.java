@@ -1,6 +1,6 @@
 package br.com.cwi.tinderevolution.acervo;
 
-import tinder.evolution.dominio.usuario.Usuario;
+import br.com.cwi.tinderevolution.dominio.usuario.Usuario;
 
 import java.util.ArrayList;
 import java.util.List;
