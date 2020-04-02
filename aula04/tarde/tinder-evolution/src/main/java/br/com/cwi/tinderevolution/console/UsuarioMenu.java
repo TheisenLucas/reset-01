@@ -2,7 +2,6 @@ package br.com.cwi.tinderevolution.console;
 
 import br.com.cwi.tinderevolution.dominio.usuario.Usuario;
 import br.com.cwi.tinderevolution.gerenciador.UsuarioGerenciador;
-import br.com.cwi.tinderevolution.dominio.usuario.Localizacao;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -81,10 +80,7 @@ public class UsuarioMenu {
         int dia = scanner.nextInt();
 
         System.out.print("Biografia: ");
-        String biografia = scanner.nextLine();
-
-        //System.out.print("Localização: ");
-        //Localizacao localizacao = scanner.nextDouble();
+        String biografia = scanner.next(); // Utilizando scanner.nextLine() a variável String biografia não estava recebendo o valor
 
         scanner.nextLine(); // Consumir nova linha restante
 
@@ -94,7 +90,7 @@ public class UsuarioMenu {
         System.out.print("Longitude: ");
         Double longitude = scanner.nextDouble();
 
-        Usuario usuario = new Usuario(nome, email, telefone, LocalDate.of(ano, mes, dia), biografia, new Localizacao(latitude, longitude));
+        Usuario usuario = new Usuario(nome, email, telefone, LocalDate.of(ano, mes, dia), biografia, latitude, longitude);
         return gerenciador.salvar(usuario);
     }
 
@@ -134,16 +130,13 @@ public class UsuarioMenu {
         System.out.print("Biografia: ");
         String biografia = scanner.nextLine();
 
-        //System.out.print("Localização: ");
-        //Localizacao localizacao = scanner.nextDouble();
-
         System.out.print("Latitude: ");
         Double latitude = scanner.nextDouble();
 
         System.out.print("Longitude: ");
         Double longitude = scanner.nextDouble();
 
-        Usuario atualizacao = new Usuario(nome, email, telefone, LocalDate.of(ano, mes, dia), biografia, new Localizacao(latitude, longitude));
+        Usuario atualizacao = new Usuario(nome, email, telefone, LocalDate.of(ano, mes, dia), biografia, latitude, longitude);
 
         Usuario usuarioAtualizado = gerenciador.editar(id, atualizacao);
 

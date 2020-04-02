@@ -43,7 +43,9 @@ public class UsuarioAcervo {
         usuarioParaEditar.setTelefone(usuarioAtualizado.getTelefone());
         usuarioParaEditar.setDataNascimento(usuarioAtualizado.getDataNascimento());
         usuarioParaEditar.setBiografia(usuarioAtualizado.getBiografia());
-        usuarioParaEditar.setLocalizacao(usuarioAtualizado.getLocalizacao());
+        usuarioParaEditar.setLatitude(usuarioAtualizado.getLatitude());
+        usuarioParaEditar.setLongitude(usuarioAtualizado.getLongitude());
+
 
         return usuarioParaEditar;
     }

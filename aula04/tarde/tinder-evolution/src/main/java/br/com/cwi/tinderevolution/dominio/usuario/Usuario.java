@@ -25,15 +25,18 @@ public class Usuario {
 
     private String biografia;
 
-    private Localizacao localizacao;
+    private Double latitude;
 
-    public Usuario(String nome, String email, String telefone, LocalDate dataNascimento, String biografia, Localizacao localizacao) {
+    private Double longitude;
+
+    public Usuario(String nome, String email, String telefone, LocalDate dataNascimento, String biografia, Double latitude, Double longitude) {
         this.nome = nome;
         this.email = email;
         this.telefone = telefone;
         this.dataNascimento = dataNascimento;
         this.biografia = biografia;
-        this.localizacao = localizacao;
+        this.latitude = latitude;
+        this.longitude = longitude;
     }
 
     public int getId() {
@@ -84,12 +87,20 @@ public class Usuario {
         this.biografia = biografia;
     }
 
-    public Localizacao getLocalizacao() {
-        return localizacao;
+    public Double getLatitude() {
+        return latitude;
     }
 
-    public void setLocalizacao(Localizacao localizacao) {
-        this.localizacao = localizacao;
+    public void setLatitude(Double latitude) {
+        this.latitude = latitude;
+    }
+
+    public Double getLongitude() {
+        return longitude;
+    }
+
+    public void setLongitude(Double longitude) {
+        this.longitude = longitude;
     }
 
     @Override
@@ -101,7 +112,8 @@ public class Usuario {
                 ", Telefone='" + telefone + '\'' +
                 ", Data de Nascimento=" + dataNascimento +
                 ", Biografia='" + biografia + '\'' +
-                ", Localizacao=" + localizacao +
+                ", Latitude=" + latitude +
+                ", Longitude=" + longitude +
                 '>';
     }
 }

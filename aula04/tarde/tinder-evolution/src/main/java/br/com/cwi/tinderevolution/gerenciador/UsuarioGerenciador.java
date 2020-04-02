@@ -20,7 +20,7 @@ public class UsuarioGerenciador {
             }
         }
 
-        if (usuario.getNome().isEmpty() || usuario.getEmail().isEmpty() || usuario.getTelefone().isEmpty() || usuario.getDataNascimento() == null || usuario.getBiografia().isEmpty() || usuario.getLocalizacao() == null) {
+        if (usuario.getNome().isEmpty() || usuario.getEmail().isEmpty() || usuario.getTelefone().isEmpty() || usuario.getDataNascimento() == null || usuario.getBiografia().isEmpty() || usuario.getLatitude() == null || usuario.getLongitude() == null) {
             System.out.println("Campos obrigatórios não informados.");
             return null;
         }
