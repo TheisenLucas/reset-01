@@ -300,9 +300,9 @@ public class JogoMenu {
         int id = scanner.nextInt();
 
         if (gerenciador.deletar(id)) {
-            System.out.println("Jogo deletada.");
+            System.out.println("Jogo deletado.");
         } else {
-            System.out.println("Jogo não encontrada.");
+            System.out.println("Jogo não encontrado.");
         }
 
     }
