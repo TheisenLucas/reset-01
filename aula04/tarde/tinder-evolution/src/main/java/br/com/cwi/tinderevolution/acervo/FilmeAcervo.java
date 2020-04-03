@@ -1,10 +1,12 @@
 package br.com.cwi.tinderevolution.acervo;
 
 import br.com.cwi.tinderevolution.dominio.filme.Filme;
+import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Repository
 public class FilmeAcervo {
 
     private static int contador = 1;

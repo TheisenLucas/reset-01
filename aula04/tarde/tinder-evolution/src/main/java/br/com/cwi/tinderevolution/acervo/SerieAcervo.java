@@ -1,10 +1,12 @@
 package br.com.cwi.tinderevolution.acervo;
 
 import br.com.cwi.tinderevolution.dominio.serie.Serie;
+import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Repository
 public class SerieAcervo {
 
     private static int contador = 1;

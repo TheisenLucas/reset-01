@@ -2,10 +2,12 @@ package br.com.cwi.tinderevolution.gerenciador;
 
 import br.com.cwi.tinderevolution.acervo.SerieAcervo;
 import br.com.cwi.tinderevolution.dominio.serie.Serie;
+import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
 import java.util.List;
 
+@Service
 public class SerieGerenciador {
 
     private SerieAcervo acervo = new SerieAcervo();

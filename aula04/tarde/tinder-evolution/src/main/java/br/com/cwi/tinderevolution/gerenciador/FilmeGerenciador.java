@@ -2,10 +2,12 @@ package br.com.cwi.tinderevolution.gerenciador;
 
 import br.com.cwi.tinderevolution.acervo.FilmeAcervo;
 import br.com.cwi.tinderevolution.dominio.filme.Filme;
+import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
 import java.util.List;
 
+@Service
 public class FilmeGerenciador {
 
     private FilmeAcervo acervo = new FilmeAcervo();

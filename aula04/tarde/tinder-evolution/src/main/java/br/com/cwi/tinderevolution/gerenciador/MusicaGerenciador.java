@@ -2,10 +2,12 @@ package br.com.cwi.tinderevolution.gerenciador;
 
 import br.com.cwi.tinderevolution.acervo.MusicaAcervo;
 import br.com.cwi.tinderevolution.dominio.musica.Musica;
+import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
 import java.util.List;
 
+@Service
 public class MusicaGerenciador {
 
     private MusicaAcervo acervo = new MusicaAcervo();
