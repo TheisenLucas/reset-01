@@ -1,41 +1,41 @@
 package br.com.cwi.tinderevolution.rest;
 
-import br.com.cwi.tinderevolution.dominio.musica.Musica;
-import br.com.cwi.tinderevolution.gerenciador.MusicaGerenciador;
+import br.com.cwi.tinderevolution.dominio.serie.Serie;
+import br.com.cwi.tinderevolution.gerenciador.SerieGerenciador;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
-@RequestMapping("/musicas")
-public class MusicaRest {
+@RequestMapping("/series")
+public class SerieRest {
 
-    public MusicaGerenciador gerenciador;
+    public SerieGerenciador gerenciador;
 
-    public MusicaRest() {
-        this.gerenciador = new MusicaGerenciador();
+    public SerieRest() {
+        this.gerenciador = new SerieGerenciador();
     }
 
     @GetMapping
-    public List<Musica> listarTodos() {
+    public List<Serie> listarTodos() {
 
         return gerenciador.listar();
     }
 
     @GetMapping("/{id}")
-    public Musica procurarPorId(@PathVariable("id") int id) {
+    public Serie procurarPorId(@PathVariable("id") int id) {
 
         return gerenciador.procurar(id);
     }
 
     @PostMapping
-    public Musica create(@RequestBody Musica requestBody) {
+    public Serie create(@RequestBody Serie requestBody) {
 
         return gerenciador.salvar(requestBody);
     }
 
     @PutMapping("/{id}")
-    public Musica editar(@PathVariable("id") int id, @RequestBody Musica requestBody) {
+    public Serie editar(@PathVariable("id") int id, @RequestBody Serie requestBody) {
 
         return gerenciador.editar(id, requestBody);
     }
@@ -45,5 +45,4 @@ public class MusicaRest {
 
         gerenciador.deletar(id);
     }
-
 }
