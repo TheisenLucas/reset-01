@@ -1,11 +1,11 @@
 package br.com.cwi.tinderevolution.console;
 
-import br.com.cwi.tinderevolution.dominio.usuario.Usuario;
-import br.com.cwi.tinderevolution.gerenciador.UsuarioGerenciador;
+        import br.com.cwi.tinderevolution.dominio.usuario.Usuario;
+        import br.com.cwi.tinderevolution.gerenciador.UsuarioGerenciador;
 
-import java.time.LocalDate;
-import java.util.List;
-import java.util.Scanner;
+        import java.time.LocalDate;
+        import java.util.List;
+        import java.util.Scanner;
 
 public class UsuarioMenu {
 

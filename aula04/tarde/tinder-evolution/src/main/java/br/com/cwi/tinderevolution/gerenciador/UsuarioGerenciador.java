@@ -2,12 +2,16 @@ package br.com.cwi.tinderevolution.gerenciador;
 
 import br.com.cwi.tinderevolution.acervo.UsuarioAcervo;
 import br.com.cwi.tinderevolution.dominio.usuario.Usuario;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
 import java.util.List;
 
+@Service
 public class UsuarioGerenciador {
 
+    @Autowired
     private UsuarioAcervo acervo = new UsuarioAcervo();
 
     public Usuario salvar(Usuario usuario) {
