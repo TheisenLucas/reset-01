@@ -11,6 +11,7 @@ public class App {
         SerieMenu serieMenu = new SerieMenu();
         UsuarioMenu usuarioMenu = new UsuarioMenu();
         JogoMenu jogoMenu = new JogoMenu();
+        EsporteMenu esporteMenu = new EsporteMenu();
 
         Scanner teclado = new Scanner(System.in);
         char opcao = ' ';
@@ -23,6 +24,7 @@ public class App {
             System.out.println("[F] - Filmes");
             System.out.println("[S] - Séries");
             System.out.println("[J] - Jogos");
+            System.out.println("[E] - Esporte");
             System.out.println("[X] - Encerrar");
             System.out.print("> ");
             opcao = teclado.next().charAt(0);
@@ -42,6 +44,9 @@ public class App {
                     break;
                 case 'J':
                     jogoMenu.opcoes();
+                    break;
+                case 'E':
+                    esporteMenu.opcoes();
                     break;
                 case 'X':
                     System.out.println("Encerrando...");
