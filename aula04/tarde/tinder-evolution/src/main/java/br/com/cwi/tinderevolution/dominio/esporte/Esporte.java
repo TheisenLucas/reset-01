@@ -6,6 +6,8 @@ public class Esporte {
 
     private String nome;
 
+    public Esporte() {} // Usado de desserialização, sem ele não consigo usar REST para criar
+
     public Esporte(String nome) {
         this.nome = nome;
     }
@@ -14,7 +16,7 @@ public class Esporte {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(final int id) {
         this.id = id;
     }
 
